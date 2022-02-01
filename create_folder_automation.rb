@@ -18,6 +18,8 @@ class CreateFolderAutomation
 
     DAYS_IN_MONTH = [nil, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
+    # Method ini membuat folder berdasarkan divisi yang ditentukan
+    # Penetapan divisi dapat dibuat dengan membuat objek baru dari klass ini
     def create_folder(division)
         # Uncomment fungsi ini untuk menjalankan program secara manual
         # berdasarkan waktu yang ditentukan.
